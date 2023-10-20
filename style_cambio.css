@@ -1,0 +1,152 @@
+/*HEADER*/
+header {
+    text-align: center;
+    background-color: #007bff;
+    padding: 10px;
+    position: relative;
+}
+img {
+    position: relative;
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    padding: 2px 15px;
+    background-color: transparent;  
+}
+h1 {
+    color: #fff;
+    font-size: 24px;
+}
+.engrenagem {
+    position: absolute;
+    top: -0.12rem;
+    left: 0.1rem;
+    width: 3rem;
+}
+.perfil {
+    position: absolute;
+    top: -0.23rem;
+    right: 0.5rem;
+    width: 3rem;
+}
+.meu-botao {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #002cbd;
+    border: none;
+    border-radius: 15px;
+}
+
+.meu-botao:hover {background-color: #00b7ff}
+
+/*MAIN*/
+main {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+#img_cambio{
+    width: 120px; /* Largura desejada */
+    height: auto; /* 'auto' mantém a proporção correta entre largura/altura */
+    top: -2rem;
+    max-width: 100%; /* Garante que a imagem não exceda a largura da tela */
+    max-height: 100vh; /* Garante que a imagem não exceda a altura da tela */
+    object-fit: contain; /* Garante que a imagem mantenha seu aspecto */
+    margin-bottom: -30px;
+}
+.linha{
+    flex-direction: row;
+    display: flex;
+}
+.coluna-botao {
+    display: flex;
+    flex-direction: column;
+    width: 80px; /* Ajuste a largura conforme necessário */
+    align-items: center; /* Alinha os botões no centro da coluna */
+    margin-top: 25px;
+  }
+
+#input_2{
+    width: 80px;
+    margin-bottom: 0px;
+}
+#p_2{
+    margin-bottom: 7px;
+    margin-top: auto;
+}
+p{
+    margin-bottom: 3px;
+    margin-top: 2px;
+}
+input{
+    margin-top: 7px;
+}
+#botao_trocar{
+    margin-top: 20px;
+    padding: 5px; 
+    text-align: center;
+    background-color: #00b7ff; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 70px; 
+    height: 30px;
+    box-sizing: border-box; 
+    font-size: 10px;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+.botao {
+    margin-top: 3px;
+    padding: 5px; 
+    text-align: center;
+    background-color: #00b7ff; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 50%; 
+    box-sizing: border-box; 
+    font-size: 10px;
+    text-decoration: none;
+    border-radius: 1rem;
+  }
+select{
+    margin-bottom: 0px;
+    width: 150px;
+    height: 25px;
+}
+/*FOOTER*/
+footer{
+    background-color:#00b7ff;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        display:flex;
+        justify-content: space-between;
+}
+.lupa {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 10%;
+}
+#ul_footer {
+    display: flex;
+    flex-direction: line;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
